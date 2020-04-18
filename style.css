@@ -7,7 +7,7 @@ html,body{
 }
 .top{
     height: 750px;
-    background-image: url(bg.jpg);
+    background-image: url(images/bg.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -68,16 +68,16 @@ html,body{
     text-align: center;
 }
 .icon1::before{
-    content: url(icons_clock.png);
+    content: url(images/icons_clock.png);
 }
 .icon2::before{
-    content: url(icons_pin.png);
+    content: url(images/icons_pin.png);
 }
 .icon3::before{
-    content: url(icons_phone.png);
+    content: url(images/icons_phone.png);
 }
 .icon4::before{
-    content: url(icons_tag.png);
+    content: url(images/icons_tag.png);
 }
 .icon4{
     position: absolute;
@@ -121,7 +121,7 @@ hr::after{
     padding: 13px 15px;
     border: 1px solid black;
     border-radius: 99px;
-    content: url(icons_down.png)
+    content: url(images/icons_down.png)
 }
 .titleZone{
     text-align: center;
@@ -140,7 +140,7 @@ hr::after{
     background-color: rgba(255,255,255,0.6);
     border: 3px solid white;
     -webkit-appearance: none;
-    background-image: url(icons_down.png);
+    background-image: url(images/icons_down.png);
     background-repeat: no-repeat;
     background-position: calc( 100% - 20px ) center;
 }
